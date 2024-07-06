@@ -1,0 +1,38 @@
+{
+    "name": "megoxv/zeromsg",
+    "type": "library",
+    "description": "ZeroMsg fluent API for Whatsapp  diverse message types integration.",
+    "keywords": [
+        "php",
+        "laravel",
+        "zeromsg",
+        "whatsapp"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Megoxv\\ZeroMsg\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Megoxv\\ZeroMsg\\ZeroMsgServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelmjid Saber",
+            "email": "abdelmjiDev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2"
+    }
+}
