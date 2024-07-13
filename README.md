@@ -72,7 +72,7 @@ use Megoxv\ZeroMsg\Facades\ZeroMsg;
 
 ZeroMsg::create()
     ->message('Check out this media file!')
-    ->media('https://example.com/media.mp4', 'media.mp4', '')
+    ->media('https://example.com/media.mp4', 'media.mp4')
     ->to('34676010101')
     ->send();
 ```
